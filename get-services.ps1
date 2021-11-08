@@ -1,0 +1,1 @@
+﻿get-wmiobject win32_service | select name, displayname | FT
